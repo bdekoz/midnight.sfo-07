@@ -686,7 +686,9 @@ chrome
     function showTooltip(event, tooltipId) {
       const tooltipimg = document.getElementById(tooltipId);
       if (tooltipimg) {
-	const svge = tooltipimg.parentElement;
+	const ge = tooltipimg.parentElement;
+	const svge = ge.parentElement;	
+        console.log(ge.id);
         console.log(svge.id);
 	console.log(`ScreenX: ${event.screenX}, ScreenY: ${event.screenY}`);
 	console.log(`X: ${event.x}, Y: ${event.y}`);
