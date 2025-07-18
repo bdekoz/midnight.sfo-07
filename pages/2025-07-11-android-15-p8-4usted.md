@@ -687,6 +687,9 @@ chrome
       const tooltipimg = document.getElementById(tooltipId);
       if (tooltipimg) {
 	const svge = tooltipimg.parentElement;
+        console.log(svge.id);
+	console.log(`ScreenX: ${event.screenX}, ScreenY: ${event.screenY}`);
+	console.log(`X: ${event.x}, Y: ${event.y}`);
 	const brect = svge.getBoundingClientRect();
 	const bx = brect.left;
 	const by = brect.top;
