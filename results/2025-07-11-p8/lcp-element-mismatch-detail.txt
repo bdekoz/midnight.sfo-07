@@ -1,0 +1,36 @@
+https://www.aldositaliangreengates.co.uk/
+firefox lcp element: ""https://static.wixstatic.com/media/22d96f_f835f66edea6480c9da769a99772b036~mv2.jpg/v1/crop/x_1459,y_0,w_2650,h_3712/fill/w_500,h_700,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_1453.jpg""
+chrome lcp element: ""https://static.wixstatic.com/media/22d96f_ced86e5cb1b94c7b94eae1c391a25c66~mv2.jpg/v1/crop/x_111,y_0,w_605,h_848/fill/w_500,h_700,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/AldoTeal.jpg""
+
+https://artesp.org.br/
+firefox lcp element: ""https://i0.wp.com/artesp.org.br/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-01-at-10.51.17.jpeg?resize=690%2C400&ssl=1""
+chrome lcp element: ""https://i0.wp.com/artesp.org.br/wp-content/uploads/2025/07/TintaRendeCobraMais_AnjoTintas.png?resize=690%2C500&ssl=1""
+
+https://botzsak.arukereso.hu/
+firefox lcp element: ""https://p1.akcdn.net/thumb/1381868455.carp-zoom-carpzoom-quiver-rod-120cm-1-rekeszes-6-zseb-botzsak-cz4068-epeca.jpg""
+chrome lcp element: ""<div class='info'></div>""
+
+https://www.esaiedukasi.com/
+firefox lcp element: ""<h2></h2>""
+chrome lcp element: ""<p class='title-description'></p>""
+
+https://www.haymanpens.com/
+firefox lcp element: ""<h2 class='hero__title h1'></h2>""
+chrome lcp element: ""https://www.haymanpens.com/cdn/shop/files/22-6_1296x.jpg?v=1613552927""
+
+https://www.lapencaazul.com/
+firefox lcp element: ""https://www.lapencaazul.com/images/Home/lapencaazul-home-tacobar.jpg""
+chrome lcp element: ""https://www.lapencaazul.com/images/Home/lapencaazul-home-restaurant.jpg""
+
+https://panske-tricka.heureka.sk/
+firefox lcp element: ""https://cdn.heureka.group/fe/hasty-images/latest/brand/heureka-sk/logo.svg""
+chrome lcp element: ""<p></p>""
+
+https://unitedreggae.com/
+firefox lcp element: ""https://unitedreggae.com/_static/images/texture.png""
+chrome lcp element: ""https://static.unitedreggae.com/article/mheadline-2446-1552430138.jpg""
+
+https://vehiclelifetimesolutions.schaeffler.ro/
+firefox lcp element: ""https://media-vls.schaeffler.com/__image/a/120006/alias/s2x/ar/16-6/fn/vls-installation-ina-FEAD-belt""
+chrome lcp element: ""<div class='paragraph ng-star-inserted'></div>""
+

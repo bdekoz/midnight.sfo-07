@@ -1,0 +1,36 @@
+https://www.aldositaliangreengates.co.uk/
+firefox lcp element: ""https://static.wixstatic.com/media/22d96f_c2a86c9019b245da9d74795be6d076e5~mv2.jpg/v1/crop/x_0,y_931,w_3712,h_3705/fill/w_788,h_1104,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_1473.jpg""
+chrome lcp element: ""https://static.wixstatic.com/media/22d96f_ced86e5cb1b94c7b94eae1c391a25c66~mv2.jpg/v1/crop/x_111,y_0,w_605,h_848/fill/w_605,h_848,al_c,q_85,enc_avif,quality_auto/AldoTeal.jpg""
+
+https://artesp.org.br/
+firefox lcp element: ""https://i0.wp.com/artesp.org.br/wp-content/uploads/2025/07/TintaRendeCobraMais_AnjoTintas.png?resize=690%2C500&ssl=1""
+chrome lcp element: ""https://i0.wp.com/artesp.org.br/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-01-at-10.51.17.jpeg?resize=690%2C400&ssl=1""
+
+https://botzsak.arukereso.hu/
+firefox lcp element: ""https://p1.akcdn.net/thumb/1388806447.carp-zoom-bottaska-ns-triple-140x34x20cm.jpg""
+chrome lcp element: ""<div class='info'></div>""
+
+https://detfriasverige.se/
+firefox lcp element: ""https://onecdn.io/media/37c60151-5c68-4209-bd4b-66944d53ad9c/lg2x""
+chrome lcp element: ""https://onecdn.io/media/37c60151-5c68-4209-bd4b-66944d53ad9c/xlg""
+
+https://www.esaiedukasi.com/
+firefox lcp element: ""https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQrERX7-j5ZF0l1vRbFhPx4JzSC1vt28lm0kusCx8QqgGG1Jx2iTtriPfBmeqObiw9JedgT8P-ydTJWMSwiTD0VttPxyaY83oa6mdsjFacIlHblVub0RgPxB8Rq63D_N8OiwOtH7H9mS2AZw0O9P1SShH-QyRHHBnzNlBtjVRBxu91vQwwZzuR9Tf/w300-h168-p-k-no-nu/website%20games%20pembelajaran.jpg""
+chrome lcp element: ""https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt-P8HpMznNL93_uzT4cyCBQL8k3PiKxKRKOP8O76VgwD428Jh6l0J1ID0WhF1v9X8c6SJNSDmczu_or74UDA61BTkXjmAGkVdE0wp-QZT7amt5hoVSVCWwmWWw8QLzc3ZCi64TyoSIfG5uHjKkMCbdunglk9U1oazv6I5mBgGamPsBwuLXk-W45fbVIU/w800-h800-c-rw/guru-bahasa-inggris-bisa-ikut-ppg.jpg""
+
+https://freeflix-tv.en.malavida.com/android/
+firefox lcp element: ""https://imag.malavida.com/mvimg/main-m/freeflix-tv-24968-2.jpg""
+chrome lcp element: ""https://imag.malavida.com/mvimg/main-m/freeflix-tv-24968-1.jpg""
+
+https://unitedreggae.com/
+firefox lcp element: ""https://unitedreggae.com/_static/images/texture.png""
+chrome lcp element: ""https://static.unitedreggae.com/article/mheadline-2446-1552430138.jpg""
+
+https://vehiclelifetimesolutions.schaeffler.ro/
+firefox lcp element: ""https://media-vls.schaeffler.com/__image/a/120006/alias/xl2x/ar/4-1/fn/vls-installation-ina-FEAD-belt""
+chrome lcp element: ""https://media-vls.schaeffler.com/__image/a/120006/alias/m2x/ar/16-6/fn/vls-installation-ina-FEAD-belt""
+
+https://warehouse13.higherincomejobs.com/
+firefox lcp element: ""<div class='sc-fzoaKM jVLjCR'></div>""
+chrome lcp element: """"
+

@@ -1,0 +1,16 @@
+{
+  "platform": "android-15-p8",
+  "date": "2025-07-11",
+  "test": "vazhnoznat",
+  "url": "https://vazhnoznat.com/",
+  "url_content_traits": {
+    "compression-dictionary": 0,
+    "dns-prefetch": 1,
+    "google-publisher-tag": 1,
+    "preconnect": 1,
+    "prefetch": 0,
+    "preload": 1,
+    "prerender": 0
+  },
+  "video_side_by_side": "2025-07-11-android-15-p8-vazhnoznat-side-by-side.mp4"
+}
