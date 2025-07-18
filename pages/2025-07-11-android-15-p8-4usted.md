@@ -691,7 +691,9 @@ chrome
         console.log(ge.id);
         console.log(svge.id);
 	console.log(`ScreenX: ${event.screenX}, ScreenY: ${event.screenY}`);
+	console.log(`PageX: ${event.pageX}, PageY: ${event.pageY}`);	
 	console.log(`X: ${event.x}, Y: ${event.y}`);
+
 	const brect = svge.getBoundingClientRect();
 	const bx = brect.left;
 	const by = brect.top;
