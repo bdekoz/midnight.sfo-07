@@ -515,8 +515,11 @@ chrome
         const bx = brect.left;
         const by = brect.top;
 
+        const irect = tooltipimg.getBoundingClientRect();
+	const iydelta = (irect.bottom - irect.top) / 2;
+
     	tooltipimg.setAttribute('x', event.pageX - bx);
-    	tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
+    	tooltipimg.setAttribute('y', event.pageY - by - iydelta);
 	tooltipimg.setAttribute('visibility', 'visible');
       }
       else {
