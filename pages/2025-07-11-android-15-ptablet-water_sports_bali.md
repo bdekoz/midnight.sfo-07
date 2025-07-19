@@ -517,7 +517,7 @@ chrome
     const by = brect.top;
 
     const margin = 50;
-    tooltipimg.setAttribute('x', event.pageX + "px");
+    tooltipimg.setAttribute('x', event.pageX - margin + "px");
     tooltipimg.setAttribute('y', event.pageY - tooltipimg.offsetHeight + "px");
 
 	tooltipimg.setAttribute('visibility', 'visible');
