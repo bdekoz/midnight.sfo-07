@@ -4,11 +4,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-     id="svg2" xml:space="preserve"
+     xml:space="preserve"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:html="http://www.w3.org/1999/xhtml"
-x="0px" y="0px"
+id="2025-07-11-android-15-p8-water_sports_bali_x_metadata" x="0px" y="0px"
 width="540.000000px" height="150.000000px"
 viewBox="0 0 540.000000 150.000000" enable-background="new 0 0 540.000000 150.000000" role="img">
 
@@ -34,11 +34,11 @@ viewBox="0 0 540.000000 150.000000" enable-background="new 0 0 540.000000 150.00
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-     id="svg2" xml:space="preserve"
+     xml:space="preserve"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:html="http://www.w3.org/1999/xhtml"
-x="0px" y="0px"
+id="2025-07-11-android-15-p8-water_sports_bali_x_video" x="0px" y="0px"
 width="540.000000px" height="585.000000px"
 viewBox="0 0 540.000000 585.000000" enable-background="new 0 0 540.000000 585.000000" role="img">
 
@@ -59,16 +59,16 @@ viewBox="0 0 540.000000 585.000000" enable-background="new 0 0 540.000000 585.00
 
 ---
 
-## % visually complete by millisecond (SpeedIndex)
+## % visually complete by ms (SpeedIndexProgress)
 {::nomarkdown}
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-     id="svg2" xml:space="preserve"
+     xml:space="preserve"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:html="http://www.w3.org/1999/xhtml"
-x="0px" y="0px"
+id="2025-07-11-android-15-p8-water_sports_bali_x_line_graph" x="0px" y="0px"
 width="900.000000px" height="600.000000px"
 viewBox="0 0 900.000000 600.000000" enable-background="new 0 0 900.000000 600.000000" role="img">
 
@@ -76,7 +76,7 @@ viewBox="0 0 900.000000 600.000000" enable-background="new 0 0 900.000000 600.00
 2025-07-11-android-15-p8-water_sports_bali_x_line_graph
 </title>
 <desc>
-SpeedIndexProgress line graph for annotation
+annotation line graph for SpeedIndexProgress
 </desc>
  <g id="tic-x-annotation">
 <text x="100.000000" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5">0.0s</text>
@@ -266,22 +266,10 @@ firefox
 56%, 291ms
 </title>
  </path>
-<path id="triangle-3.900000-120.000000" d="M 257.062 277.95 L 253.684 272.1 L 250.307 277.95 L 257.062 277.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_02920')"  onmouseout="hideTooltip('firefox_scrn_02920')"   >
-<title>
-firefox
-56%, 2920ms
-</title>
- </path>
 <path id="triangle-3.900000-120.000000" d="M 260.588 125.95 L 257.211 120.1 L 253.833 125.95 L 260.588 125.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_02987')"  onmouseout="hideTooltip('firefox_scrn_02987')"   >
 <title>
 firefox
 94%, 2987ms
-</title>
- </path>
-<path id="triangle-3.900000-120.000000" d="M 264.062 125.95 L 260.684 120.1 L 257.307 125.95 L 264.062 125.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_03053')"  onmouseout="hideTooltip('firefox_scrn_03053')"   >
-<title>
-firefox
-94%, 3053ms
 </title>
  </path>
 <path id="triangle-3.900000-120.000000" d="M 269.43 113.95 L 266.053 108.1 L 262.675 113.95 L 269.43 113.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_03155')"  onmouseout="hideTooltip('firefox_scrn_03155')"   >
@@ -290,22 +278,10 @@ firefox
 97%, 3155ms
 </title>
  </path>
-<path id="triangle-3.900000-120.000000" d="M 276.43 113.95 L 273.053 108.1 L 269.675 113.95 L 276.43 113.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_03288')"  onmouseout="hideTooltip('firefox_scrn_03288')"   >
-<title>
-firefox
-97%, 3288ms
-</title>
- </path>
 <path id="triangle-3.900000-120.000000" d="M 279.062 105.95 L 275.684 100.1 L 272.307 105.95 L 279.062 105.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_03338')"  onmouseout="hideTooltip('firefox_scrn_03338')"   >
 <title>
 firefox
 99%, 3338ms
-</title>
- </path>
-<path id="triangle-3.900000-120.000000" d="M 525.114 105.95 L 521.737 100.1 L 518.359 105.95 L 525.114 105.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_08013')"  onmouseout="hideTooltip('firefox_scrn_08013')"   >
-<title>
-firefox
-99%, 8013ms
 </title>
  </path>
 <path id="triangle-3.900000-120.000000" d="M 803.377 101.95 L 800 96.1 L 796.623 101.95 L 803.377 101.95 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'firefox_scrn_13300')"  onmouseout="hideTooltip('firefox_scrn_13300')"   >
@@ -323,22 +299,10 @@ chrome
 0%, 0ms
 </title>
  </circle>
-<circle cx="100.421053" cy="500.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_00008')"  onmouseout="hideTooltip('chrome_scrn_00008')"   >
-<title>
-chrome
-0%, 8ms
-</title>
- </circle>
 <circle cx="201.210526" cy="280.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_01923')"  onmouseout="hideTooltip('chrome_scrn_01923')"   >
 <title>
 chrome
 55%, 1923ms
-</title>
- </circle>
-<circle cx="241.368421" cy="280.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_02686')"  onmouseout="hideTooltip('chrome_scrn_02686')"   >
-<title>
-chrome
-55%, 2686ms
 </title>
  </circle>
 <circle cx="253.210526" cy="168.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_02911')"  onmouseout="hideTooltip('chrome_scrn_02911')"   >
@@ -347,34 +311,16 @@ chrome
 83%, 2911ms
 </title>
  </circle>
-<circle cx="254.000000" cy="168.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_02926')"  onmouseout="hideTooltip('chrome_scrn_02926')"   >
-<title>
-chrome
-83%, 2926ms
-</title>
- </circle>
 <circle cx="257.105263" cy="112.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_02985')"  onmouseout="hideTooltip('chrome_scrn_02985')"   >
 <title>
 chrome
 97%, 2985ms
 </title>
  </circle>
-<circle cx="258.000000" cy="112.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_03002')"  onmouseout="hideTooltip('chrome_scrn_03002')"   >
-<title>
-chrome
-97%, 3002ms
-</title>
- </circle>
 <circle cx="258.947368" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_03020')"  onmouseout="hideTooltip('chrome_scrn_03020')"   >
 <title>
 chrome
 99%, 3020ms
-</title>
- </circle>
-<circle cx="297.421053" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_03751')"  onmouseout="hideTooltip('chrome_scrn_03751')"   >
-<title>
-chrome
-99%, 3751ms
 </title>
  </circle>
 <circle cx="387.789474" cy="100.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1"  onmouseover="showTooltip(event, 'chrome_scrn_05468')"  onmouseout="hideTooltip('chrome_scrn_05468')"   >
@@ -429,24 +375,28 @@ chrome
  visibility="hidden" crossorigin="anonymous"  />
 <image  id="chrome_scrn_05468" href="../filmstrip/2025-07-11-android-15-p8-water_sports_bali-chrome_05468.webp" x="0.000000" y="0.000000" width="135.000000" height="300.000000"
  visibility="hidden" crossorigin="anonymous"  />
- </g><script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
+ </g></svg>
+
+{:/}
+<script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
 
     function showTooltip(event, tooltipId) {
       const tooltipimg = document.getElementById(tooltipId);
       if (tooltipimg) {
-	const svge = tooltipimg.parentElement;
-	const brect = svge.getBoundingClientRect();
+	const ge = tooltipimg.parentElement;
+	const svge = ge.parentElement;
+	const brect = ge.getBoundingClientRect();
 	const bx = brect.left;
 	const by = brect.top;
 
-	tooltipimg.setAttribute('x', event.x + bx + "px");
-	tooltipimg.setAttribute('y', event.y + by + "px");
-
+	tooltipimg.setAttribute('x', event.pageX - bx);
+	tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
 	tooltipimg.setAttribute('visibility', 'visible');
       } else {
 	console.error(`Element with ID "${tooltipId}" not found.`);
       }
     }
+    
 
     function hideTooltip(tooltipId) {
       const tooltipimg = document.getElementById(tooltipId);
@@ -454,10 +404,121 @@ chrome
     }
     
 </script>
-</svg>
 
-{:/}
 
 ---
 
 ## navigation, paint, visual metrics
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metics Table</title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+  
+	<thead>
+	  <tr>
+	    <th rowspan="2" width="25%">metric</th>
+	    <th colspan="2" width="25%">firefox</th>
+	    <th colspan="2" width="25%">chrome</th>
+	    <th rowspan="2" width="25%">difference</th>
+	  </tr>
+	  <tr>
+	    <th>median</th>
+	    <th>rsd</th>
+	    <th>median</th>
+	    <th>rsd</th>
+	   </tr>
+	</thead>
+      
+  <tbody>
+    <tr>
+      <td>domainLookupStart</td>
+      <td>55</td>
+      <td>30.8</td>
+      <td>9.5</td>
+      <td>60.0</td>
+      <td>82.7%</td>
+    </tr>
+    <tr>
+      <td>connectStart</td>
+      <td>62</td>
+      <td>34.6</td>
+      <td>25</td>
+      <td>25.3</td>
+      <td>59.7%</td>
+    </tr>
+    <tr>
+      <td>requestStart</td>
+      <td>131</td>
+      <td>15.5</td>
+      <td>87.5</td>
+      <td>14.6</td>
+      <td>33.2%</td>
+    </tr>
+    <tr>
+      <td>responseStart</td>
+      <td>372</td>
+      <td>51.4</td>
+      <td>392</td>
+      <td>51.0</td>
+      <td>-5.4%</td>
+    </tr>
+    <tr>
+      <td>domInteractive</td>
+      <td>871</td>
+      <td>38.4</td>
+      <td>1033</td>
+      <td>22.9</td>
+      <td>-18.6%</td>
+    </tr>
+    <tr>
+      <td>loadEventEnd</td>
+      <td>1407</td>
+      <td>36.6</td>
+      <td>1804</td>
+      <td>14.0</td>
+      <td>-28.2%</td>
+    </tr>
+    <tr>
+      <td>fcp</td>
+      <td>958</td>
+      <td>36.1</td>
+      <td>1034</td>
+      <td>23.9</td>
+      <td>-7.9%</td>
+    </tr>
+    <tr>
+      <td>lcp</td>
+      <td>976</td>
+      <td>34.4</td>
+      <td>1034</td>
+      <td>23.2</td>
+      <td>-5.9%</td>
+    </tr>
+    <tr>
+      <td>SpeedIndex</td>
+      <td>1558</td>
+      <td>20.0</td>
+      <td>2395</td>
+      <td>4.3</td>
+      <td>-53.7%</td>
+    </tr>
+    <tr>
+      <td>LastVisualChange</td>
+      <td>13272</td>
+      <td>2.6</td>
+      <td>5421</td>
+      <td>5.6</td>
+      <td>59.2%</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>
+        

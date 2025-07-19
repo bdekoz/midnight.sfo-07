@@ -1,3 +1,4 @@
+
 ## metadata
 {::nomarkdown}
 <?xml version="1.0" encoding="utf-8"?>
@@ -57,8 +58,6 @@ viewBox="0 0 540.000000 585.000000" enable-background="new 0 0 540.000000 585.00
 {:/}
 
 ---
-
-<p id="screen-log"></p>
 
 ## % visually complete by ms (SpeedIndexProgress)
 {::nomarkdown}
@@ -498,51 +497,31 @@ chrome
  </g></svg>
 
 {:/}
-
 <script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
 
-    
     function showTooltip(event, tooltipId) {
       const tooltipimg = document.getElementById(tooltipId);
       if (tooltipimg) {
-        const ge = tooltipimg.parentElement;
-        const svge = ge.parentElement;
-        console.log(ge.id);
-        console.log(svge.id);
-        console.log(`X: ${event.x}, Y: ${event.y}`);
+	const ge = tooltipimg.parentElement;
+	const svge = ge.parentElement;
+	const brect = ge.getBoundingClientRect();
+	const bx = brect.left;
+	const by = brect.top;
 
-        const brect = ge.getBoundingClientRect();
-        const bx = brect.left;
-        const by = brect.top;
-
-        const irect = tooltipimg.getBoundingClientRect();
-	const iydelta = (irect.bottom - irect.top) / 2;
-
-    	tooltipimg.setAttribute('x', event.pageX - bx);
-    	tooltipimg.setAttribute('y', event.pageY - by - iydelta);
+	tooltipimg.setAttribute('x', event.pageX - bx);
+	tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
 	tooltipimg.setAttribute('visibility', 'visible');
-      }
-      else {
+      } else {
 	console.error(`Element with ID "${tooltipId}" not found.`);
       }
     }
+    
 
     function hideTooltip(tooltipId) {
-      const tooltipe = document.getElementById(tooltipId);
-      tooltipe.setAttribute('visibility', 'hidden');
+      const tooltipimg = document.getElementById(tooltipId);
+      tooltipimg.setAttribute('visibility', 'hidden');
     }
-
-let screenLog = document.querySelector("#screen-log");
-document.addEventListener("mousemove", logKey);
-
-function logKey(e) {
-  screenLog.innerText = `
-    Screen X/Y: ${e.screenX}, ${e.screenY}
-    Page X/Y: ${e.pageX}, ${e.pageY}    
-    Client X/Y: ${e.clientX}, ${e.clientY}`;
-}
-
-
+    
 </script>
 
 
@@ -558,8 +537,8 @@ function logKey(e) {
 </head>
 <body>
     <div class="table-container">
-	<table border="1" class="dataframe">
-
+        <table>
+  
 	<thead>
 	  <tr>
 	    <th rowspan="2" width="25%">metric</th>
@@ -574,7 +553,7 @@ function logKey(e) {
 	    <th>rsd</th>
 	   </tr>
 	</thead>
-
+      
   <tbody>
     <tr>
       <td>domainLookupStart</td>
@@ -661,3 +640,4 @@ function logKey(e) {
     </div>
 </body>
 </html>
+        

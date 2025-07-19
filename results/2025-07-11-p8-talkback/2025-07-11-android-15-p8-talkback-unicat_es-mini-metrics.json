@@ -1,0 +1,82 @@
+[
+    {
+        "metric": "domainLookupStart",
+        "firefox_median": "66.5",
+        "firefox_rsd": "20.7",
+        "chrome_median": "23.5",
+        "chrome_rsd": "31.5",
+        "difference": "64.7%"
+    },
+    {
+        "metric": "connectStart",
+        "firefox_median": "79.5",
+        "firefox_rsd": "20.5",
+        "chrome_median": "27",
+        "chrome_rsd": "23.9",
+        "difference": "66.0%"
+    },
+    {
+        "metric": "requestStart",
+        "firefox_median": "143",
+        "firefox_rsd": "28.1",
+        "chrome_median": "64.5",
+        "chrome_rsd": "27.6",
+        "difference": "54.9%"
+    },
+    {
+        "metric": "responseStart",
+        "firefox_median": "1144",
+        "firefox_rsd": "5.8",
+        "chrome_median": "1180",
+        "chrome_rsd": "4.9",
+        "difference": "-3.1%"
+    },
+    {
+        "metric": "domInteractive",
+        "firefox_median": "1855",
+        "firefox_rsd": "29.0",
+        "chrome_median": "1934",
+        "chrome_rsd": "3.8",
+        "difference": "-4.3%"
+    },
+    {
+        "metric": "loadEventEnd",
+        "firefox_median": "2086",
+        "firefox_rsd": "26.5",
+        "chrome_median": "1997",
+        "chrome_rsd": "3.7",
+        "difference": "4.3%"
+    },
+    {
+        "metric": "fcp",
+        "firefox_median": "1876",
+        "firefox_rsd": "28.6",
+        "chrome_median": "1854",
+        "chrome_rsd": "3.8",
+        "difference": "1.2%"
+    },
+    {
+        "metric": "lcp",
+        "firefox_median": "1882",
+        "firefox_rsd": "28.6",
+        "chrome_median": "1854",
+        "chrome_rsd": "3.8",
+        "difference": "1.5%"
+    },
+    {
+        "metric": "SpeedIndex",
+        "firefox_median": "2080",
+        "firefox_rsd": "28.1",
+        "chrome_median": "2748",
+        "chrome_rsd": "0.7",
+        "difference": "-32.1%"
+    },
+    {
+        "metric": "LastVisualChange",
+        "firefox_median": "14062",
+        "firefox_rsd": "5.0",
+        "chrome_median": "4400",
+        "chrome_rsd": "45.5",
+        "difference": "68.7%"
+    }
+]
