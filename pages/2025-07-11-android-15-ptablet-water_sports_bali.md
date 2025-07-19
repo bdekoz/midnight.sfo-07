@@ -508,8 +508,6 @@ chrome
     const svge = ge.parentElement;
     console.log(ge.id);
     console.log(svge.id);
-    console.log(`ScreenX: ${event.screenX}, ScreenY: ${event.screenY}`);
-    console.log(`PageX: ${event.pageX}, PageY: ${event.pageY}`);
     console.log(`X: ${event.x}, Y: ${event.y}`);
 
     const brect = ge.getBoundingClientRect();
@@ -517,8 +515,8 @@ chrome
     const by = brect.top;
 
     const margin = 50;
-    tooltipimg.setAttribute('x', event.pageX - bx + "px");
-    tooltipimg.setAttribute('y', event.pageY - tooltipimg.offsetHeight + "px");
+    tooltipimg.setAttribute('x', event.pageX - bx);
+    tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
 
 	tooltipimg.setAttribute('visibility', 'visible');
       }
