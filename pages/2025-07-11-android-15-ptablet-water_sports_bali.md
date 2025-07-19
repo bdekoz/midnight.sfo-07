@@ -501,6 +501,8 @@ chrome
 
 <script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
 
+    //tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
+    
     function showTooltip(event, tooltipId) {
   const tooltipimg = document.getElementById(tooltipId);
   if (tooltipimg) {
@@ -516,7 +518,6 @@ chrome
 
     const margin = 50;
     tooltipimg.setAttribute('x', event.pageX - bx);
-    //tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
     tooltipimg.setAttribute('y', event.pageY - by);
 
 	tooltipimg.setAttribute('visibility', 'visible');
