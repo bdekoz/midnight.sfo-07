@@ -501,12 +501,11 @@ chrome
 
 <script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
 
-    //tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
     
     function showTooltip(event, tooltipId) {
-  const tooltipimg = document.getElementById(tooltipId);
-  if (tooltipimg) {
-    const ge = tooltipimg.parentElement;
+  const tooltipe = document.getElementById(tooltipId);
+  if (tooltipe) {
+    const ge = tooltipe.parentElement;
     const svge = ge.parentElement;
     console.log(ge.id);
     console.log(svge.id);
@@ -516,11 +515,14 @@ chrome
     const bx = brect.left;
     const by = brect.top;
 
-    const margin = 50;
-    tooltipimg.setAttribute('x', event.pageX - bx);
-    tooltipimg.setAttribute('y', event.pageY - by);
+    const irect = tooltipe.getBoundingClientRect();
+    const iheight = irect.bottom - irect.top;
 
-	tooltipimg.setAttribute('visibility', 'visible');
+    const margin = 50;
+    tooltipe.setAttribute('x', event.pageX - bx);
+    tooltipe.setAttribute('y', event.pageY - by - iheight);
+
+	tooltipe.setAttribute('visibility', 'visible');
       }
       else {
 	console.error(`Element with ID "${tooltipId}" not found.`);
@@ -528,8 +530,8 @@ chrome
     }
 
     function hideTooltip(tooltipId) {
-      const tooltipimg = document.getElementById(tooltipId);
-      tooltipimg.setAttribute('visibility', 'hidden');
+      const tooltipe = document.getElementById(tooltipId);
+      tooltipe.setAttribute('visibility', 'hidden');
     }
 
 let screenLog = document.querySelector("#screen-log");
