@@ -516,7 +516,8 @@ chrome
 
     const margin = 50;
     tooltipimg.setAttribute('x', event.pageX - bx);
-    tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
+    //tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
+    tooltipimg.setAttribute('y', event.pageY - by);
 
 	tooltipimg.setAttribute('visibility', 'visible');
       }
