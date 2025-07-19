@@ -520,7 +520,8 @@ chrome
 
     const margin = 50;
     tooltipe.setAttribute('x', event.pageX - bx);
-    tooltipe.setAttribute('y', event.pageY - by - iheight);
+    //tooltipe.setAttribute('y', event.pageY - by - iheight);
+    tooltipe.setAttribute('y', event.pageY - iheight);
 
 	tooltipe.setAttribute('visibility', 'visible');
       }
