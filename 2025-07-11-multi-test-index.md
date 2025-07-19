@@ -1,4 +1,6 @@
-## Results
+## test result index 
+
+
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +9,7 @@
 <body>
   <div class="table-container">
     <table>
-
+  
 <thead>
   <tr>
     <th rowspan="2">test url</th>
@@ -202,15 +204,4 @@
   </div>
 </body>
 </html>
-
-
-## About
-- [progressive metrics](/docs/about_1.md)
-- [key to visualization](/docs/about_2.md)
-- [test and device metadata](/docs/results_metadata.md)
-- [notes](/docs/observations_notes.md)
-- [analysis notebook](https://github.com/bdekoz/midnight.sfo-crux/tree/main/notebooks/lcp_perf_analysis_2025q2.ipynb)
-
-
-## Data
-* [json](https://github.com/bdekoz/midnight.sfo-crux/tree/main/results)
+        
