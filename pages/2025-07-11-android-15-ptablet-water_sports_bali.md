@@ -1,4 +1,3 @@
-
 ## metadata
 {::nomarkdown}
 <?xml version="1.0" encoding="utf-8"?>
@@ -502,13 +501,8 @@ chrome
     function showTooltip(event, tooltipId) {
       const tooltipimg = document.getElementById(tooltipId);
       if (tooltipimg) {
-	const svge = tooltipimg.parentElement;
-	const brect = svge.getBoundingClientRect();
-	const bx = brect.left;
-	const by = brect.top;
-
-	tooltipimg.setAttribute('x', event.x + bx + "px");
-	tooltipimg.setAttribute('y', event.y + by + "px");
+	tooltipimg.setAttribute('x', event.screenX + "px");
+	tooltipimg.setAttribute('y', event.screenY + "px");
 
 	tooltipimg.setAttribute('visibility', 'visible');
       } else {
@@ -520,7 +514,7 @@ chrome
       const tooltipimg = document.getElementById(tooltipId);
       tooltipimg.setAttribute('visibility', 'hidden');
     }
-    
+
 </script>
 
 
@@ -536,8 +530,8 @@ chrome
 </head>
 <body>
     <div class="table-container">
-        <table border="1" class="dataframe">
-  
+	<table border="1" class="dataframe">
+
 	<thead>
 	  <tr>
 	    <th rowspan="2" width="25%">metric</th>
@@ -552,7 +546,7 @@ chrome
 	    <th>rsd</th>
 	   </tr>
 	</thead>
-      
+
   <tbody>
     <tr>
       <td>domainLookupStart</td>
@@ -639,4 +633,3 @@ chrome
     </div>
 </body>
 </html>
-        
