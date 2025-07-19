@@ -58,6 +58,8 @@ viewBox="0 0 540.000000 585.000000" enable-background="new 0 0 540.000000 585.00
 
 ---
 
+<p id="screen-log"></p>
+
 ## % visually complete by ms (SpeedIndexProgress)
 {::nomarkdown}
 <?xml version="1.0" encoding="utf-8"?>
@@ -496,16 +498,31 @@ chrome
  </g></svg>
 
 {:/}
+
 <script type="text/javascript" crossorigin="anonymous" id="tooltip-js"  >
 
     function showTooltip(event, tooltipId) {
-      const tooltipimg = document.getElementById(tooltipId);
-      if (tooltipimg) {
-	tooltipimg.setAttribute('x', event.screenX + "px");
-	tooltipimg.setAttribute('y', event.screenY + "px");
+  const tooltipimg = document.getElementById(tooltipId);
+  if (tooltipimg) {
+    const ge = tooltipimg.parentElement;
+    const svge = ge.parentElement;
+    console.log(ge.id);
+    console.log(svge.id);
+    console.log(`ScreenX: ${event.screenX}, ScreenY: ${event.screenY}`);
+    console.log(`PageX: ${event.pageX}, PageY: ${event.pageY}`);
+    console.log(`X: ${event.x}, Y: ${event.y}`);
+
+    const brect = svge.getBoundingClientRect();
+    const bx = brect.left;
+    const by = brect.top;
+
+    const margin = 50;
+    tooltipimg.setAttribute('x', event.x + bx + "px");
+    tooltipimg.setAttribute('y', event.y + by + "px");
 
 	tooltipimg.setAttribute('visibility', 'visible');
-      } else {
+      }
+      else {
 	console.error(`Element with ID "${tooltipId}" not found.`);
       }
     }
@@ -514,6 +531,16 @@ chrome
       const tooltipimg = document.getElementById(tooltipId);
       tooltipimg.setAttribute('visibility', 'hidden');
     }
+
+let screenLog = document.querySelector("#screen-log");
+document.addEventListener("mousemove", logKey);
+
+function logKey(e) {
+  screenLog.innerText = `
+    Screen X/Y: ${e.screenX}, ${e.screenY}
+    Client X/Y: ${e.clientX}, ${e.clientY}`;
+}
+
 
 </script>
 
