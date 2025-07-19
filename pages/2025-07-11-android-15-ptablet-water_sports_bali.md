@@ -519,9 +519,10 @@ chrome
     const iheight = irect.bottom - irect.top;
 
     const margin = 50;
-    tooltipe.setAttribute('x', event.pageX - bx);
+    tooltipe.setAttribute('x', event.pageX - bx + "px");
     //tooltipe.setAttribute('y', event.pageY - by - iheight);
-    tooltipe.setAttribute('y', event.pageY - iheight);
+    //tooltipe.setAttribute('y', event.pageY - iheight);
+    tooltipe.setAttribute('y', event.pageY - iheight + "px");
 
 	tooltipe.setAttribute('visibility', 'visible');
       }
