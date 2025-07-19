@@ -503,27 +503,20 @@ chrome
 
     
     function showTooltip(event, tooltipId) {
-  const tooltipe = document.getElementById(tooltipId);
-  if (tooltipe) {
-    const ge = tooltipe.parentElement;
-    const svge = ge.parentElement;
-    console.log(ge.id);
-    console.log(svge.id);
-    console.log(`X: ${event.x}, Y: ${event.y}`);
+      const tooltipimg = document.getElementById(tooltipId);
+      if (tooltipimg) {
+        const ge = tooltipimg.parentElement;
+        const svge = ge.parentElement;
+        console.log(ge.id);
+        console.log(svge.id);
+        console.log(`X: ${event.x}, Y: ${event.y}`);
 
-    const brect = ge.getBoundingClientRect();
-    const bx = brect.left;
-    const by = brect.top;
+        const brect = ge.getBoundingClientRect();
+        const bx = brect.left;
+        const by = brect.top;
 
-    const irect = tooltipe.getBoundingClientRect();
-    const iheight = irect.bottom - irect.top;
-
-    const margin = 50;
-    tooltipe.setAttribute('x', event.pageX - bx + "px");
-    //tooltipe.setAttribute('y', event.pageY - by - iheight);
-    //tooltipe.setAttribute('y', event.pageY - iheight);
-    tooltipe.setAttribute('y', event.pageY - iheight + "px");
-
+    	tooltipimg.setAttribute('x', event.pageX - bx);
+    	tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
 	tooltipe.setAttribute('visibility', 'visible');
       }
       else {
