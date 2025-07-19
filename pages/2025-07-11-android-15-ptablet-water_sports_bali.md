@@ -512,12 +512,12 @@ chrome
     console.log(`PageX: ${event.pageX}, PageY: ${event.pageY}`);
     console.log(`X: ${event.x}, Y: ${event.y}`);
 
-    const brect = svge.getBoundingClientRect();
+    const brect = ge.getBoundingClientRect();
     const bx = brect.left;
     const by = brect.top;
 
     const margin = 50;
-    tooltipimg.setAttribute('x', event.pageX - margin + "px");
+    tooltipimg.setAttribute('x', event.pageX - bx + "px");
     tooltipimg.setAttribute('y', event.pageY - tooltipimg.offsetHeight + "px");
 
 	tooltipimg.setAttribute('visibility', 'visible');
@@ -538,6 +538,7 @@ document.addEventListener("mousemove", logKey);
 function logKey(e) {
   screenLog.innerText = `
     Screen X/Y: ${e.screenX}, ${e.screenY}
+    Page X/Y: ${e.pageX}, ${e.pageY}    
     Client X/Y: ${e.clientX}, ${e.clientY}`;
 }
 
