@@ -517,7 +517,7 @@ chrome
 
     	tooltipimg.setAttribute('x', event.pageX - bx);
     	tooltipimg.setAttribute('y', event.pageY - by - tooltipimg.offsetHeight);
-	tooltipe.setAttribute('visibility', 'visible');
+	tooltipimg.setAttribute('visibility', 'visible');
       }
       else {
 	console.error(`Element with ID "${tooltipId}" not found.`);
