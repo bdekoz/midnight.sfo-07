@@ -213,4 +213,4 @@
 
 
 ## Data
-* [json](https://github.com/bdekoz/midnight.sfo-crux/tree/main/results)
+* [json](https://github.com/bdekoz/midnight.sfo-07/tree/main/results)
